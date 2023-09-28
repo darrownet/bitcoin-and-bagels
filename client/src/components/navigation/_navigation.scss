@@ -1,0 +1,19 @@
+.navigation {
+  margin-bottom: 48px;
+  h1 {
+    margin-bottom: 12px;
+  }
+  ol {
+    display: flex;
+  }
+  li {
+    margin-right: 16px;
+  }
+  a {
+    color: $lighter;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: $neutral;
+  }
+}

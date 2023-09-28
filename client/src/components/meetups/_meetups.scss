@@ -1,0 +1,38 @@
+.meetups {
+  li {
+    border: 1px solid $light;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px;
+    img {
+      height: 96px;
+      width: 96px;
+    }
+    p {
+      margin: 0;
+    }
+    .img-title-date {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      img {
+        margin-right: 16px;
+      }
+    }
+    a {
+      border: 1px solid $light;
+      padding: 24px;
+      border-radius: 8px;
+      color: $lighter;
+    }
+    a:hover {
+      border: 1px solid $neutral;
+      color: $neutral;
+    }
+    .attending {
+      width: 240px;
+    }
+  }
+}
